@@ -23,7 +23,7 @@ public class AdminInterceptor extends HandlerInterceptorAdapter {
 		}
 		
 		
-		if(member.getVerify() != 9) {
+		if(member.getVerify() != 1) {
 			res.sendRedirect("/");
 			return false;
 		}

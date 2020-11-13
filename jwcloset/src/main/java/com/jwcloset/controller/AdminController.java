@@ -65,43 +65,6 @@ public class AdminController {
 		category = adminService.category();  // DB에 저장된 카테고리를 가져와서 category에 저장
 		model.addAttribute("category", JSONArray.fromObject(category));  // 변수 category를 제이슨(json)타입으로 변환하여 category 세션에 부여
 	}
-
-	
-	
-	/*@RequestMapping(value = "/goods/register")
-	public String insertWarn(GoodsVO vo, HttpSession session,
-			@ModelAttribute("file") MultipartFile file) {
-
-		
-		try {
-
-			String imgUploadPath = uploadPath + File.separator + "imgUpload";
-			String ymdPath = UploadFileUtils.calcPath(imgUploadPath);
-			String fileName = null;
-
-			if (file.getOriginalFilename() != null && file.getOriginalFilename() != "") {
-				fileName = UploadFileUtils.fileUpload(imgUploadPath, file.getOriginalFilename(), file.getBytes(),
-						ymdPath);
-			} else {
-				fileName = uploadPath + File.separator + "images" + File.separator + "none.png";
-			}
-
-			vo.setGdsImg(File.separator + "imgUpload" + ymdPath + File.separator + fileName);
-			vo.setGdsThumbImg(File.separator + "imgUpload" + ymdPath + File.separator + "s" + File.separator + "s_" + fileName);
-
-			System.out.println("vo = " + vo.getGdsName());
-			System.out.println("vo = " + vo.getGdsImg());
-			
-			adminService.register(vo);
-			
-
-		} catch (Exception e) {
-
-		}
-
-		return "redirect:/admin/index";
-
-	}*/
 	
 	// 상품 등록
 	@RequestMapping(value = "/goods/register", method = RequestMethod.POST)
