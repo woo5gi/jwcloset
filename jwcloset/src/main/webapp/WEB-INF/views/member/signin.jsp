@@ -25,7 +25,7 @@
 	<form role="form" method="post" autocomplete="off">
 		<div class="input_area">
 			<label for="userId">아이디</label>
-			<input type="email" id="userId" name="userId" required="required" value="kuzuro@gmail.com" />						
+			<input type="email" id="userId" name="userId" required="required" value="jwcloset@jwcloset" />						
 		</div>
 		
 		<div class="input_area">

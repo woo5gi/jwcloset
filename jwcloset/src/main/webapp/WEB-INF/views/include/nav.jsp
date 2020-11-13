@@ -12,7 +12,7 @@
 </c:if>
 <c:if test="${member != null}">
 
-<c:if test="${member.verify == 9}">
+<c:if test="${member.verify == 1}">
 <li>
 	<a href="/admin/index">관리자 화면</a>	
 </li>	
