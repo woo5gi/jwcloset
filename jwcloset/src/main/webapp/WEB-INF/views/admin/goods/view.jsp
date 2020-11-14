@@ -3,22 +3,28 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
 <head>
-	<title>jwcloset Admin</title>
-	
-<script src="/resources/jquery/jquery-3.3.1.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jwcloset</title>
 
-<link rel="stylesheet" href="/resources/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="/resources/bootstrap/bootstrap-theme.min.css">
-<script src="/resources/bootstrap/bootstrap.min.js"></script>
-	
+<!-- css -->
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/materialdesignicons.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/jquery.mCustomScrollbar.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/unslider.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/template.css" />
 <style>
 	body { font-family:'맑은 고딕', verdana; padding:0; margin:0; }
 	ul { padding:0; margin:0; list-style:none;  }
  
 	div#root { width:90%; margin:0 auto; }
-	
-	header#header { font-size:60px; padding:20px 0; }
-	header#header h1 a { color:#000; font-weight:bold; }
 	
 	nav#nav { padding:10px; text-align:right; }
 	nav#nav ul li { display:inline-block; margin-left:10px; }
@@ -35,42 +41,14 @@
 	footer#footer { background:#f9f9f9; padding:20px; }
 	footer#footer ul li { display:inline-block; margin-right:10px; } 
 </style>
-
-
-<style>
-.inputArea { margin:10px 0; }
-select { width:100px; }
-label { display:inline-block; width:70px; padding:5px; }
-label[for='gdsDes'] { display:block; }
-input { width:150px; }
-textarea#gdsDes { width:400px; height:180px; }
-
-.oriImg { width:500px; height:auto; }
-.thumbImg {}
-
-.gdsDes img { max-width:600px; height:auto; }
-
-</style>
-
 </head>
 <body>
-<div id="root">
 	<header id="header">
 		<div id="header_box">
 			<%@ include file="../include/header.jsp" %>
 		</div>
-	</header>
-
-	<nav id="nav">
-		<div id="nav_box">
-			<%@ include file="../include/nav.jsp" %>
-		</div>
-	</nav>
-	
+	</header>	
 	<section id="container">
-		<aside>
-			<%@ include file="../include/aside.jsp" %>
-		</aside>
 		<div id="container_box">
 			<h2>상품 조회</h2>
 			
@@ -153,8 +131,6 @@ textarea#gdsDes { width:400px; height:180px; }
 			<%@ include file="../include/footer.jsp" %>
 		</div>		
 	</footer>
-
-</div>
 
 </body>
 </html>

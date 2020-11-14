@@ -6,6 +6,19 @@
 <html>
 <head>
 	<title>jwcloset</title>
+	<!-- css -->
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/materialdesignicons.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/jquery.mCustomScrollbar.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/prettyPhoto.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/unslider.css" />
+<link rel="stylesheet" type="text/css"
+	href="../resources/css/template.css" />
 	
 	
 	<style>
@@ -74,12 +87,6 @@
 			<%@ include file="../include/header.jsp" %>
 		</div>
 	</header>
-
-	<nav id="nav">
-		<div id="nav_box">
-			<%@ include file="../include/nav.jsp" %>
-		</div>
-	</nav>
 	
 	<section id="container">
 		<div id="container_box">
