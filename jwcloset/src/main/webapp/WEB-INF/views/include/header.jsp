@@ -28,11 +28,11 @@
 					<div class="collapse navbar-collapse pull-left"
 						id="nino-navbar-collapse">
 						<ul class="nav navbar-nav">
-							<li href="#nino-story"><a href="/shop/list?c=100&l=1">무기</a>
+							<li href="#nino-story"><a href="/shop/list?c=100&l=1">OUTER</a>
 							</li>
-							<li href="#nino-story"><a href="/shop/list?c=200&l=1">탄약</a></li>
-							<li href="#nino-story"><a href="/shop/list?c=300&l=1">방어구</a></li>
-							<li href="#nino-story"><a href="/shop/list?c=400&l=1">회복제</a></li>
+							<li href="#nino-story"><a href="/shop/list?c=200&l=1">TOP</a></li>
+							<li href="#nino-story"><a href="/shop/list?c=300&l=1">PANTS</a></li>
+							<li href="#nino-story"><a href="/shop/list?c=400&l=1">ACC</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -47,7 +47,7 @@
 								<li href="#nino-story"><a href="/admin/index">관리자 화면</a></li>
 							</c:if>
 
-							<li href="#nino-story">${member.userName}님환영합니다.</li>
+							<li href="#nino-story" style ="padding-top: 15px;">${member.userName}님환영합니다.</li>
 							<li href="#nino-story"><a href="/shop/cartList"><i class="mdi mdi-cart nino-icon"></i></a></li>
 							<li href="#nino-story"><a href="/shop/orderList"><i class="mdi mdi-file-document-box nino-icon"></i></a></li>
 							<li href="#nino-story"><a href="/member/signout"><i class="mdi mdi-logout nino-icon"></i></a></li>

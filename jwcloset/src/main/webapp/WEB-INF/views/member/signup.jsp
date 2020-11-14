@@ -32,7 +32,7 @@
 		<section id="container">
 			<div id="container_box">
 
-				<section id="content">
+				<section id="content" style="padding :50px 44%">
 
 					<form role="form" method="post" autocomplete="off"
 						class="nino-subscribeForm">

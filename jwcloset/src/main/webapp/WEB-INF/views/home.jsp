@@ -30,78 +30,79 @@
 			</div>
 		</header>
 
-			<section id="nino-latestBlog">
-				<div class="container">
+		<section id="nino-latestBlog">
+			<div class="container">
 
-					<h2 class="nino-sectionHeading">
-						<span class="nino-subHeading">content</span>
-					</h2>
-					<div class="sectionContent">
-						<div class="row">
-							<div class="col-md-4 col-sm-4">
-								<article>
-									<div class="articleThumb">
-										<a href="#"><img src="images/our-blog/img-1.jpg" alt=""></a>
-										<div class="date">
-											<span class="number">15</span> <span class="text">Jan</span>
-										</div>
+				<h2 class="nino-sectionHeading">
+					<span>인기상품</span>
+				</h2>
+				<div class="sectionContent">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<article>
+								<div class="articleThumb">
+									<a href="#"><img src="images/our-blog/img-1.jpg" alt=""></a>
+									<div class="date">
+										<span class="number">15</span> <span class="text">%</span>
 									</div>
-									<h3 class="articleTitle">
-										<a href="">Lorem ipsum dolor sit amet</a>
-									</h3>
-									<p class="articleDesc">Consectetur adipiscing elit, sed do
-										eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<div class="articleMeta">
-										<a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a> <a
-											href="#"><i
-											class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a>
+								</div>
+								<h3 class="articleTitle">
+									<a href="">[JWClest 단독진행/주문폭주] 리본빗 도트 원피스 - 2 color </a>
+								</h3>
+								<p class="articleDesc">탄탄한 조직감에 적당히 도톰한 면 소재에요. 텍스처까지 부드러워
+									찬기가 느껴지지 않아요. 덕분에 한겨울에도 부담 없이 착용하실 수 있을 거예요.</p>
+								<div class="articleMeta">
+									<a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a> <a
+										href="#"><i
+										class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a>
+								</div>
+							</article>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<article>
+								<div class="articleThumb">
+									<a href="#"><img src="images/our-blog/img-2.jpg" alt=""></a>
+									<div class="date">
+										<span class="number">14</span> <span class="text">%</span>
 									</div>
-								</article>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<article>
-									<div class="articleThumb">
-										<a href="#"><img src="images/our-blog/img-2.jpg" alt=""></a>
-										<div class="date">
-											<span class="number">14</span> <span class="text">Jan</span>
-										</div>
+								</div>
+								<h3 class="articleTitle">
+									<a href="">[JWCloset 단독/6천장돌파] 시카 퍼자켓 - 3 color</a>
+								</h3>
+								<p class="articleDesc">패딩보다 훨씬, 누빔 울 코트보다도 따듯한 인조퍼 + 코튼 소재의
+									겨울아우터 소개해드릴게요 🤩</p>
+								<div class="articleMeta">
+									<a href="#"><i class="mdi mdi-eye nino-icon"></i> 995</a> <a
+										href="#"><i
+										class="mdi mdi-comment-multiple-outline nino-icon"></i> 42</a>
+								</div>
+							</article>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<article>
+								<div class="articleThumb">
+									<a href="#"><img src="images/our-blog/img-3.jpg" alt=""></a>
+									<div class="date">
+										<span class="number">12</span> <span class="text">%</span>
 									</div>
-									<h3 class="articleTitle">
-										<a href="">sed do eiusmod tempor</a>
-									</h3>
-									<p class="articleDesc">Adipiscing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua.</p>
-									<div class="articleMeta">
-										<a href="#"><i class="mdi mdi-eye nino-icon"></i> 995</a> <a
-											href="#"><i
-											class="mdi mdi-comment-multiple-outline nino-icon"></i> 42</a>
-									</div>
-								</article>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<article>
-									<div class="articleThumb">
-										<a href="#"><img src="images/our-blog/img-3.jpg" alt=""></a>
-										<div class="date">
-											<span class="number">12</span> <span class="text">Jan</span>
-										</div>
-									</div>
-									<h3 class="articleTitle">
-										<a href="">incididunt ut labore et dolore</a>
-									</h3>
-									<p class="articleDesc">Elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna aliqua.</p>
-									<div class="articleMeta">
-										<a href="#"><i class="mdi mdi-eye nino-icon"></i> 1264</a> <a
-											href="#"><i
-											class="mdi mdi-comment-multiple-outline nino-icon"></i> 69</a>
-									</div>
-								</article>
-							</div>
+								</div>
+								<h3 class="articleTitle">
+									<a href="">[JWCloset made/1만장돌파] winter! 우드 슬림 와이드팬츠 (real
+										기모) - 4color</a>
+								</h3>
+								<p class="articleDesc">여름, 가을 시즌 베스트 상품 중 하나였던 우드팬츠. '예쁘고 편한
+									옷' 저희가 만들고 싶은 옷과 가장 잘 맞아떨어지는 옷이에요. 매 시즌마다 언제나 자신있게 보여드리는 우드팬츠!</p>
+								<div class="articleMeta">
+									<a href="#"><i class="mdi mdi-eye nino-icon"></i> 1264</a> <a
+										href="#"><i
+										class="mdi mdi-comment-multiple-outline nino-icon"></i> 69</a>
+								</div>
+							</article>
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 		<footer id="footer">
 			<div id="footer_box">
 				<%@ include file="include/footer.jsp"%>

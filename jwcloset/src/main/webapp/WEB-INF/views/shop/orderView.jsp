@@ -31,21 +31,14 @@
 		ul, lo, li { margin:0; padding:0; list-style:none; }
 	
 		/* ---------- */
-		
-		div#root { width:900px; margin:0 auto; }
-		header#header {}
 		nav#nav {}
 		section#container { }
-			section#content { float:right; width:700px; }
+			section#content { float:right; width:85%; }
 			aside#aside { float:left; width:180px; }
 			section#container::after { content:""; display:block; clear:both; }	
 		footer#footer { background:#eee; padding:20px; }
 		
 		/* ---------- */
-		
-		header#header div#header_box { text-align:center; padding:30px 0; }
-		header#header div#header_box h1 { font-size:50px; }
-		header#header div#header_box h1 a { color:#000; }
 		
 		nav#nav div#nav_box { font-size:14px; padding:10px; text-align:right; }
 		nav#nav div#nav_box li { display:inline-block; margin:0 10px; }
@@ -66,8 +59,6 @@
 		aside#aside li:hover > ul.low li a:hover { background:#fff;}
 		aside#aside li > ul.low li { width:180px; }
 		
-		footer#footer { margin-top:100px; border-radius:50px 50px 0 0; }
-		footer#footer div#footer_box { padding:0 20px; }
 		
 	</style>
 	
@@ -93,7 +84,6 @@
 
 </head>
 <body>
-<div id="root">
 	<header id="header">
 		<div id="header_box">
 			<%@ include file="../include/header.jsp" %>
@@ -151,6 +141,5 @@
 		</div>		
 	</footer>
 
-</div>
 </body>
 </html>

@@ -41,7 +41,6 @@
 </style>
 </head>
 <body>
-<div id="root">
 	<header id="header">
 		<div id="header_box">
 			<%@ include file="../include/header.jsp" %>
@@ -145,7 +144,6 @@
 		</div>		
 	</footer>
 
-</div>
 
 <script>
 /*

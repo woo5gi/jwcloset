@@ -25,10 +25,11 @@
 	<link rel="stylesheet" href="/resources/css/user/shop/default.css" />
 	
 	<style>
-		div.goods div.goodsImg { float:left; width:350px; }
+	
+		div.goods div.goodsImg { float:left; width:350px; } 
 		div.goods div.goodsImg img { width:350px; height:auto; }
 		
-		div.goods div.goodsInfo { float:right; width:330px; font-size:22px; }
+		div.goods div.goodsInfo { float:left; width:330px; font-size:22px; padding-left:30px;}
 		div.goods div.goodsInfo p { margin:0 0 20px 0; }
 		div.goods div.goodsInfo p span { display:inline-block; width:100px; margin-right:15px; } 
 		
@@ -37,6 +38,7 @@
 		div.goods div.goodsInfo p.addToCart { text-align:right; }
 		div.goods div.goodsInfo p.addToCart button { font-size:22px; padding:5px 10px; border:1px solid #eee; background:#eee;}
 		div.goods div.gdsDes { font-size:18px; clear:both; padding-top:30px; }
+		
 	</style>
 	
 
@@ -57,9 +59,11 @@
 		
 		section.replyList div.replyFooter button { font-size:14px; border: 1px solid #999; background:none; margin-right:10px; }
 		
+		section#content { float:right; width:85%; padding:0px;}
 	</style>
 	
 	<style>
+	
 		div.replyModal { position:relative; z-index:1; display:none; }
 		div.modalBackground { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0, 0, 0, 0.8); z-index:-1; }
 		div.modalContent { position:fixed; top:20%; left:calc(50% - 250px); width:500px; height:250px; padding:20px 10px; background:#fff; border:2px solid #666; }
@@ -115,14 +119,13 @@ function replyList() {
 		
 </head>
 <body>
-<div id="root">
 	<header id="header">
 		<div id="header_box">
 			<%@ include file="../include/header.jsp" %>
 		</div>
 	</header>
 	
-	<section id="container">
+	<section id="container" >
 		<div id="container_box">
 		
 			<section id="content">
@@ -345,8 +348,6 @@ function replyList() {
 			<%@ include file="../include/footer.jsp" %>
 		</div>		
 	</footer>
-
-</div>
 
 
 <div class="replyModal">
